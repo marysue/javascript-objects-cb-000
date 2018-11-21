@@ -3,8 +3,7 @@ var playlist = { Slowdive :  'Alison',
 
 function updatePlaylist (playlist, artist, song)
 {
-  var newList = Object.assign( playlist, playlist, { [artist] : song} );
-  return newList;
+  return Object.assign( playlist, playlist, { [artist] : song} );
 }
 
 function removeFromPlaylist(playlistObj, artist) {
