@@ -1,5 +1,5 @@
-var playlist = { Slowdive :  'Alison',
-  "My Bloody Valentine" : 'Sometimes' };
+var playlist = { Pink :  'SongByPink',
+  "Loggins and Messina" : 'Long Tailed Cat' };
 
 function updatePlaylist (playlist, artist, song)
 {
